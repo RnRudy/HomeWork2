@@ -107,7 +107,7 @@ public class Main {
         var time = 640;
         var jobTime = 8;
         var employees = time / jobTime;
-        System.out.println("\n" + "Всего работников в компании — " + employees + " человек");
+        System.out.println("Всего работников в компании — " + employees + " человек");
 
         var employees2 = employees + 94;
         System.out.println("Если в компании работает " + employees2 + " человек, то всего " + (jobTime*employees2) + " часа работы может быть поделено между сотрудниками");
